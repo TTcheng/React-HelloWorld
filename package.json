@@ -9,7 +9,11 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "React","ES6","JSX","HelloWorld","webpack"
+    "React",
+    "ES6",
+    "JSX",
+    "HelloWorld",
+    "webpack"
   ],
   "author": "Wangchuncheng",
   "license": "MIT",
