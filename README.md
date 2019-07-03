@@ -10,7 +10,7 @@
  npm install -g yarn
 ```
 
-**note**:此DEMO使用ES6，JSX编写，使用babel将其转译为ES5；使用webpack打包。
+**note**:此DEMO使用TypeScript编写，使用webpack打包。
 
 ## 如何使用
 ```shell
