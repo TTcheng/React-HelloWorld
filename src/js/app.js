@@ -13,4 +13,4 @@ class MessageBox extends Component{
 ReactDom.render(
   <MessageBox />,
   document.getElementById('app')
-)
+);

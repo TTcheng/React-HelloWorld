@@ -1,11 +1,11 @@
 {
-  "name": "ReactHelloWorld",
+  "name": "react-hello-world",
   "version": "1.0.0",
   "description": "学习React",
   "main": "webpack.config.js",
   "scripts": {
     "build": "webpack",
-    "start": "webpack-dev-server --open --mode development",
+    "start": "webpack && webpack-dev-server --open --mode development",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -17,7 +17,10 @@
   ],
   "author": "Wangchuncheng",
   "license": "MIT",
-  "dependencies": {},
+  "dependencies": {
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0"
+  },
   "devDependencies": {
     "@babel/cli": "^7.2.3",
     "@babel/core": "^7.2.2",
@@ -25,8 +28,6 @@
     "@babel/preset-react": "^7.0.0",
     "babel-loader": "^8.0.5",
     "css-loader": "^2.1.0",
-    "react": "^16.7.0",
-    "react-dom": "^16.7.0",
     "style-loader": "^0.23.1",
     "webpack": "^4.29.5",
     "webpack-cli": "^3.2.3",
